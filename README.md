@@ -37,5 +37,15 @@
 [![Live Demo](https://img.shields.io/badge/⚡_Live_Demo-Multi--Agent_Workflow_Engine-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://pronoob-dev.github.io/ai-multi-agent-workflow-engine/)
 
 <br>
+<br>
+
+<!-- koi pond: pixel-art koi drawn from public GitHub activity, redrawn nightly
+     by .github/workflows/koi.yml (yalongwastaken/git-koi) -->
+
+<h3><code>jaikishan@github ~ $ ./pond.sh</code></h3>
+
+<p><img src="koi/koi.gif" width="256" alt="Jaikishan's koi — pixel-art koi drawn from his GitHub activity, redrawn nightly" /></p>
+
+<br>
 
 </div>

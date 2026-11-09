@@ -2,7 +2,7 @@
 
 # Hey 👨‍💻 I'm Jaikishan Bagul
 
-![Banner](https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif)
+![Banner](assets/banner.gif)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF00&background=0D1117&center=true&vCenter=true&width=600&lines=Generative+AI+Engineer;LangGraph+%E2%80%A2+RAG+%E2%80%A2+MCP+%E2%80%A2+Azure+OpenAI;Building+production+LLM+systems)](https://git.io/typing-svg)
 
@@ -30,32 +30,24 @@ I'm a **Generative AI Engineer** with 4+ years of experience building production
 
 ## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/ProNoob-Dev/ai-multi-agent-workflow-engine">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ProNoob-Dev&repo=ai-multi-agent-workflow-engine&theme=dark&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" alt="Multi-Agent Workflow Engine" />
-  </a>
-  <a href="https://github.com/ProNoob-Dev/ai-insurance-claims-triage-agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ProNoob-Dev&repo=ai-insurance-claims-triage-agent&theme=dark&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" alt="Insurance Claims Triage Agent" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/ProNoob-Dev/ai-kyc-client-onboarding-agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ProNoob-Dev&repo=ai-kyc-client-onboarding-agent&theme=dark&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" alt="KYC Client Onboarding Agent" />
-  </a>
-</p>
+| Project | What it does |
+|---|---|
+| [**🤖 AI Multi-Agent Workflow Engine**](https://github.com/ProNoob-Dev/ai-multi-agent-workflow-engine) | LangGraph router, domain agents, MCP tools, HITL gates for financial actions, compensating sagas, eval harness |
+| [**🛡️ AI Insurance Claims Triage Agent**](https://github.com/ProNoob-Dev/ai-insurance-claims-triage-agent) | Triages insurance claims — document ingestion, policy RAG, anomaly scoring, human-in-the-loop review |
+| [**🪪 AI KYC & Client Onboarding Agent**](https://github.com/ProNoob-Dev/ai-kyc-client-onboarding-agent) | Verifies KYC documents — classification, field extraction, PII masking, human review queue |
 
-## 📊 GitHub Stats & Trophies
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ProNoob-Dev&show_icons=true&theme=dark&title_color=00ff00&icon_color=00ff00&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ProNoob-Dev&theme=github_dark" alt="Profile Details" />
+</p>
+<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ProNoob-Dev&theme=dark&background=0d1117&ring=00ff00&fire=00ff00&currStreakLabel=00ff00" alt="GitHub Streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ProNoob-Dev&theme=github_dark" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProNoob-Dev&layout=compact&theme=dark&title_color=00ff00&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
-  <img src="https://github-profile-trophy.vercel.app/?username=ProNoob-Dev&theme=dark&margin-w=8&no-frame=true" alt="GitHub Trophies" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ProNoob-Dev&theme=github-dark&bg_color=0d1117&color=00ff00&line=00ff00&point=ffffff&area=true" alt="Activity Graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ProNoob-Dev&theme=github_dark" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ProNoob-Dev&theme=github_dark" alt="Most Commit Language" />
 </p>
 
 ## 🛠️ Languages & Tools
@@ -95,8 +87,8 @@ I'm a **Generative AI Engineer** with 4+ years of experience building production
   <a href="https://www.linkedin.com/in/jaikishan-bagul/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:jaikishanbagul9@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="https://t.me/Its_Mirror_Here">
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
   </a>
 </p>
 

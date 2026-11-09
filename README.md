@@ -1,101 +1,41 @@
+<!-- Profile art pipeline adapted from https://github.com/AVIVASHISHTA29/AVIVASHISHTA29 -->
 <div align="center">
 
-[![Jaikishan Bagul — Wow Profile](assets/wow-hero.png)](https://github.com/ProNoob-Dev)
+<!--  animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-**Generative AI Engineer** · Pune, India
+<h3><code>jaikishan@github ~ $ ./contributions.sh</code></h3>
 
-Building production LLM systems and sharing the work in public.
+<img src="./contrib-heatmap.svg" width="860" alt="Jaikishan Bagul's GitHub contribution graph — auto-refreshed daily" />
 
-[GitHub](https://github.com/ProNoob-Dev)
+<br>
+<br>
 
-</div>
+<!-- ascii portrait (left) + streak/numbers card (right). both svgs are
+     840x880 so equal widths give equal heights.
+     portrait: python scripts/prep_avatar.py && python scripts/make_ascii_svg.py
+     stats:    python scripts/render_stats_svg.py (same daily workflow) -->
 
-> ✦ ───────────────────────────── ✦
+<h3><code>jaikishan@github ~ $ whoami</code></h3>
 
-## Identity, with signal
+<table>
+<tr>
+<td valign="top"><img src="./jaikishan-ascii.svg" width="420" alt="Jaikishan Bagul — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Jaikishan's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
 
-| | |
-|---|---|
-| Generative AI Engineer with 4+ years building production LLM systems at BDO India — multi-agent workflows, RAG, evals and guardrails. Focus: `LangGraph` · `RAG` · `MCP` · `Azure OpenAI` <br><br>Production-first: Docker, CI/CD, observability, human-in-the-loop. I build AI agents in public — 3 open-source repos and counting. | **LIVE SIGNAL**<br>**21** repos &nbsp; **0** stars &nbsp; **133** contributions &nbsp; **0** followers |
+<br>
+<br>
 
-> ✦ ───────────────────────────── ✦
+<h3><code>jaikishan@github ~ $ ./links.sh</code></h3>
 
-## What moves the work
+<p><b>Generative AI Engineer · AI Agent Builder</b></p>
 
-Production judgement over demos — evals, observability, guardrails, durable execution, and agents that hold up under real client work.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jaikishan--bagul-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaikishan-bagul/)
+[![Telegram](https://img.shields.io/badge/Telegram-@Its__Mirror__Here-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Its_Mirror_Here)
+[![Live Demo](https://img.shields.io/badge/⚡_Live_Demo-Multi--Agent_Workflow_Engine-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://pronoob-dev.github.io/ai-multi-agent-workflow-engine/)
 
-> ✦ ───────────────────────────── ✦
-
-## The tools behind the signal
-
-[![My Skills](https://skillicons.dev/icons?i=python,fastapi,docker,azure,postgres,mongodb,redis,git,github,vscode,linux)](https://skillicons.dev)
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-0F172A?style=for-the-badge)
-![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
-
-Python · FastAPI · LangGraph · RAG · MCP · Azure OpenAI · Qdrant · pgvector · Docker · Azure — chosen for the work, not the trend.
-
-> ✦ ───────────────────────────── ✦
-
-## Built, shipped, shared
-
-| Project | What it does |
-|---|---|
-| [ai-multi-agent-workflow-engine](https://github.com/ProNoob-Dev/ai-multi-agent-workflow-engine) | Multi-agent workflow engine — LangGraph router, domain agents, MCP tools, human-in-the-loop gates for financial actions, compensating sagas, Langfuse evals <br><br>Python · ⭐ 0 |
-| [ai-kyc-client-onboarding-agent](https://github.com/ProNoob-Dev/ai-kyc-client-onboarding-agent) | AI agent that verifies KYC documents for client onboarding — classification, field extraction and validation, PII masking, human review queue <br><br>Python · ⭐ 0 |
-| [ai-insurance-claims-triage-agent](https://github.com/ProNoob-Dev/ai-insurance-claims-triage-agent) | AI agent that triages insurance claims — document ingestion, policy RAG, anomaly scoring, human-in-the-loop <br><br>Python · ⭐ 0 |
-| [ProNoob-Dev](https://github.com/ProNoob-Dev/ProNoob-Dev) | GitHub profile README — Generative AI Engineer <br><br>Open source · ⭐ 0 |
-
-> ✦ ───────────────────────────── ✦
-
-## Momentum, made visible
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ProNoob-Dev&theme=github_dark" alt="pronoob-dev's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ProNoob-Dev&theme=dark" alt="pronoob-dev's GitHub Streak" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ProNoob-Dev&theme=github_dark" alt="Top Languages" />
-</p>
-
-> ✦ ───────────────────────────── ✦
-
-## The trail behind the work
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake" src="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-
-2 day current streak · 24 active days
-
-> ✦ ───────────────────────────── ✦
-
-<div align="center">
-
-KEEP THE SIGNAL MOVING
-
-## Make something worth noticing
-
-I like working with people who care about craft, context, and shipping the useful version.
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/jaikishan-bagul/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://t.me/Its_Mirror_Here">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-  </a>
-</p>
-
-[GitHub](https://github.com/ProNoob-Dev)
-
----
-Jaikishan Bagul · Wow-inspired profile
----
+<br>
 
 </div>

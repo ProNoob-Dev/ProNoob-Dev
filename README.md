@@ -1,26 +1,57 @@
 <div align="center">
 
-# Hey 👨‍💻 I'm Jaikishan Bagul
+[![Jaikishan Bagul — Wow Profile](assets/wow-hero.png)](https://github.com/ProNoob-Dev)
 
-![Banner](assets/banner.gif)
+**Generative AI Engineer** · Pune, India
+
+Building production LLM systems and sharing the work in public.
+
+[GitHub](https://github.com/ProNoob-Dev)
 
 </div>
 
----
+> ✦ ───────────────────────────── ✦
 
-## 📌 About Me
+## Identity, with signal
 
-I'm a passionate Full Stack Developer dedicated to crafting seamless digital experiences. I specialize in building innovative web applications using cutting-edge technologies.
+| | |
+|---|---|
+| Generative AI Engineer with 4+ years building production LLM systems at BDO India — multi-agent workflows, RAG, evals and guardrails. Focus: `LangGraph` · `RAG` · `MCP` · `Azure OpenAI` <br><br>Production-first: Docker, CI/CD, observability, human-in-the-loop. I build AI agents in public — 3 open-source repos and counting. | **LIVE SIGNAL**<br>**14** repos &nbsp; **0** stars &nbsp; **101** contributions &nbsp; **0** followers |
 
-- 🔭 I'm currently working on **production GenAI systems at BDO India**
-- 🌱 I'm currently learning **agent reliability — evals, observability, and guardrails for LangGraph agents**
-- 👯 I'm looking to collaborate on **open-source AI agents**
-- 🤔 I'm looking for help with **building production-grade eval harnesses for agents**
-- 💬 Ask me about **LangGraph, RAG, MCP, Azure OpenAI, FastAPI**
-- 📫 How to reach me: **jaikishanbagul9@gmail.com**
-- ⚡ Fun fact: **I build AI agents in public — 3 open-source repos and counting**
+> ✦ ───────────────────────────── ✦
 
-## 📊 GitHub Stats & Trophies
+## What moves the work
+
+Production judgement over demos — evals, observability, guardrails, durable execution, and agents that hold up under real client work.
+
+> ✦ ───────────────────────────── ✦
+
+## The tools behind the signal
+
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,docker,azure,postgres,mongodb,redis,git,github,vscode,linux)](https://skillicons.dev)
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-0F172A?style=for-the-badge)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
+
+Python · FastAPI · LangGraph · RAG · MCP · Azure OpenAI · Qdrant · pgvector · Docker · Azure — chosen for the work, not the trend.
+
+> ✦ ───────────────────────────── ✦
+
+## Built, shipped, shared
+
+| Project | What it does |
+|---|---|
+| [ai-multi-agent-workflow-engine](https://github.com/ProNoob-Dev/ai-multi-agent-workflow-engine) | Multi-agent workflow engine — LangGraph router, domain agents, MCP tools, human-in-the-loop gates for financial actions, compensating sagas, Langfuse evals <br><br>Python · ⭐ 0 |
+| [ai-kyc-client-onboarding-agent](https://github.com/ProNoob-Dev/ai-kyc-client-onboarding-agent) | AI agent that verifies KYC documents for client onboarding — classification, field extraction and validation, PII masking, human review queue <br><br>Python · ⭐ 0 |
+| [ai-insurance-claims-triage-agent](https://github.com/ProNoob-Dev/ai-insurance-claims-triage-agent) | AI agent that triages insurance claims — document ingestion, policy RAG, anomaly scoring, human-in-the-loop <br><br>Python · ⭐ 0 |
+| [ProNoob-Dev](https://github.com/ProNoob-Dev/ProNoob-Dev) | GitHub profile README — Generative AI Engineer <br><br>Open source · ⭐ 0 |
+
+> ✦ ───────────────────────────── ✦
+
+## Momentum, made visible
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ProNoob-Dev&theme=github_dark" alt="pronoob-dev's GitHub Stats" />
@@ -30,33 +61,23 @@ I'm a passionate Full Stack Developer dedicated to crafting seamless digital exp
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ProNoob-Dev&theme=github_dark" alt="Top Languages" />
 </p>
 
-## 🛠️ Languages & Tools
+> ✦ ───────────────────────────── ✦
 
-### Programming Languages
+## The trail behind the work
 
-[![My Skills](https://skillicons.dev/icons?i=js,ts,python,java,cpp,php)](https://skillicons.dev)
+![Snake](https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg)
 
-### Frontend
+2 day current streak · 24 active days
 
-[![My Skills](https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,bootstrap)](https://skillicons.dev)
+> ✦ ───────────────────────────── ✦
 
-### Backend
+<div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express)](https://skillicons.dev)
+KEEP THE SIGNAL MOVING
 
-### Database
+## Make something worth noticing
 
-[![My Skills](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite)](https://skillicons.dev)
-
-### DevOps & Cloud
-
-[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,azure,jenkins)](https://skillicons.dev)
-
-### Tools
-
-[![My Skills](https://skillicons.dev/icons?i=git,vscode,figma,postman,webpack,vite)](https://skillicons.dev)
-
-## 🔗 Connect with Me
+I like working with people who care about craft, context, and shipping the useful version.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/jaikishan-bagul/">
@@ -67,8 +88,10 @@ I'm a passionate Full Stack Developer dedicated to crafting seamless digital exp
   </a>
 </p>
 
-![Snake](https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg)
+[GitHub](https://github.com/ProNoob-Dev)
 
 ---
+Jaikishan Bagul · Wow-inspired profile
+---
 
-<p align="center">Jaikishan Bagul · creative dev template by @himanshu201031 · generated with GitSkins</p>
+</div>

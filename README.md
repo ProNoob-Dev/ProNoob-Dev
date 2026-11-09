@@ -16,7 +16,7 @@ Building production LLM systems and sharing the work in public.
 
 | | |
 |---|---|
-| Generative AI Engineer with 4+ years building production LLM systems at BDO India — multi-agent workflows, RAG, evals and guardrails. Focus: `LangGraph` · `RAG` · `MCP` · `Azure OpenAI` <br><br>Production-first: Docker, CI/CD, observability, human-in-the-loop. I build AI agents in public — 3 open-source repos and counting. | **LIVE SIGNAL**<br>**14** repos &nbsp; **0** stars &nbsp; **101** contributions &nbsp; **0** followers |
+| Generative AI Engineer with 4+ years building production LLM systems at BDO India — multi-agent workflows, RAG, evals and guardrails. Focus: `LangGraph` · `RAG` · `MCP` · `Azure OpenAI` <br><br>Production-first: Docker, CI/CD, observability, human-in-the-loop. I build AI agents in public — 3 open-source repos and counting. | **LIVE SIGNAL**<br>**21** repos &nbsp; **0** stars &nbsp; **133** contributions &nbsp; **0** followers |
 
 > ✦ ───────────────────────────── ✦
 
@@ -65,7 +65,11 @@ Python · FastAPI · LangGraph · RAG · MCP · Azure OpenAI · Qdrant · pgvect
 
 ## The trail behind the work
 
-![Snake](https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake" src="https://raw.githubusercontent.com/ProNoob-Dev/ProNoob-Dev/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 2 day current streak · 24 active days
 

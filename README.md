@@ -11,6 +11,21 @@
 <br>
 <br>
 
+<!-- cosmic telemetry: repo star map, adapted from https://github.com/morgan-mordata/morgan-mordata (MIT License) -->
+
+<h3><code>jaikishan@github ~ $ ./galaxy.sh</code></h3>
+
+<p><b>🔭 COSMIC TELEMETRY</b><br /><sub>ecosystem &amp; repository star map</sub></p>
+
+<p align="center">
+  <a href="https://github.com/ProNoob-Dev?tab=repositories">
+    <img src="./galaxy.svg" width="100%" alt="Jaikishan Bagul's whirling repo galaxy — Axiom, Invest-Intel, HR-Copilot and more" />
+  </a>
+</p>
+
+<br>
+<br>
+
 <!-- ascii portrait (left) + streak/numbers card (right). both svgs are
      840x880 so equal widths give equal heights.
      portrait: python scripts/prep_avatar.py && python scripts/make_ascii_svg.py

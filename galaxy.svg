@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="100%" height="100%">
+  <!-- COSMIC TELEMETRY galaxy map adapted from https://github.com/morgan-mordata/morgan-mordata (MIT License) -->
+  <!-- Node labels + HUD reworked for ProNoob-Dev repos; animation + layout kept as-is -->
+  <defs>
+    <radialGradient id="spaceBg" cx="50%" cy="50%" r="72%">
+      <stop offset="0%" stop-color="#171336" />
+      <stop offset="48%" stop-color="#0b0e1c" />
+      <stop offset="100%" stop-color="#05070e" />
+    </radialGradient>
+
+    <radialGradient id="nebulaPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.45" />
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#05070e" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="nebulaCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.32" />
+      <stop offset="60%" stop-color="#0ea5e9" stop-opacity="0.09" />
+      <stop offset="100%" stop-color="#05070e" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="24%" stop-color="#e9d5ff" stop-opacity="0.88" />
+      <stop offset="52%" stop-color="#8b5cf6" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="armGradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.48" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="armGradPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e8ff" stop-opacity="0.85" />
+      <stop offset="35%" stop-color="#c084fc" stop-opacity="0.48" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="starGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softNebula" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" />
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="896" height="436" rx="18" ry="18" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="900" height="440" fill="url(#spaceBg)" />
+
+    <!-- Twinkling Background Stars -->
+    <g fill="#e2e8f0">
+      <circle cx="68" cy="56" r="1.2" opacity="0.7"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite" /></circle>
+      <circle cx="155" cy="84" r="1" opacity="0.5" />
+      <circle cx="235" cy="46" r="1.4" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4.2s" repeatCount="indefinite" /></circle>
+      <circle cx="345" cy="62" r="0.9" opacity="0.5" />
+      <circle cx="525" cy="48" r="1.3" opacity="0.75"><animate attributeName="opacity" values="0.3;0.95;0.3" dur="2.8s" repeatCount="indefinite" /></circle>
+      <circle cx="655" cy="70" r="1" opacity="0.5" />
+      <circle cx="790" cy="58" r="1.4" opacity="0.85"><animate attributeName="opacity" values="0.9;0.25;0.9" dur="3.7s" repeatCount="indefinite" /></circle>
+      <circle cx="842" cy="116" r="1.1" opacity="0.55" />
+      <circle cx="52" cy="175" r="1.2" opacity="0.6" />
+      <circle cx="86" cy="318" r="1.1" opacity="0.5" />
+      <circle cx="142" cy="382" r="1.3" opacity="0.75"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="3.5s" repeatCount="indefinite" /></circle>
+      <circle cx="280" cy="394" r="1" opacity="0.5" />
+      <circle cx="615" cy="390" r="1.3" opacity="0.7"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite" /></circle>
+      <circle cx="768" cy="374" r="1" opacity="0.55" />
+      <circle cx="836" cy="322" r="1.4" opacity="0.8"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.9s" repeatCount="indefinite" /></circle>
+    </g>
+
+    <!-- Shooting Stars -->
+    <g stroke-linecap="round">
+      <line x1="0" y1="0" x2="48" y2="16" stroke="#7dd3fc" stroke-width="1.5" opacity="0">
+        <animateMotion path="M 90,55 L 440,175" dur="5.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.9;0.9;0;0" keyTimes="0;0.08;0.22;0.32;1" dur="5.5s" repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="0" x2="-44" y2="18" stroke="#e879f9" stroke-width="1.5" opacity="0">
+        <animateMotion path="M 830,85 L 510,215" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;0.85;0.85;0;0" keyTimes="0;0.45;0.52;0.66;0.75;1" dur="7s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- 3D Tilted Whirling Galaxy Disk -->
+    <g transform="translate(450, 224) scale(1, 0.48)">
+      <ellipse cx="0" cy="0" rx="340" ry="310" fill="url(#nebulaPurple)" filter="url(#softNebula)" />
+      <ellipse cx="30" cy="-15" rx="270" ry="245" fill="url(#nebulaCyan)" filter="url(#softNebula)" />
+
+      <circle cx="0" cy="0" r="140" fill="none" stroke="#a855f7" stroke-opacity="0.26" stroke-width="1.2" stroke-dasharray="5 7" />
+      <circle cx="0" cy="0" r="225" fill="none" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="4 9" />
+      <circle cx="0" cy="0" r="315" fill="none" stroke="#c084fc" stroke-opacity="0.18" stroke-width="1.2" stroke-dasharray="3 11" />
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite" />
+        <path d="M 0,0 C 55,-15 110,20 135,85 C 165,165 95,265 -20,295 C -145,325 -275,245 -315,115" fill="none" stroke="url(#armGradCyan)" stroke-width="14" stroke-linecap="round" opacity="0.48" />
+        <path d="M 0,0 C -55,15 -110,-20 -135,-85 C -165,-165 -95,-265 20,-295 C 145,-325 275,-245 315,-115" fill="none" stroke="url(#armGradPurple)" stroke-width="14" stroke-linecap="round" opacity="0.48" />
+        <path d="M 0,0 C 15,55 -20,110 -85,135 C -165,165 -265,95 -295,-20 C -325,-145 -245,-275 -115,-315" fill="none" stroke="url(#armGradCyan)" stroke-width="10" stroke-linecap="round" opacity="0.34" />
+        <path d="M 0,0 C -15,-55 20,-110 85,-135 C 165,-165 265,-95 295,20 C 325,145 245,275 115,315" fill="none" stroke="url(#armGradPurple)" stroke-width="10" stroke-linecap="round" opacity="0.34" />
+        <g fill="#7dd3fc" filter="url(#starGlow)">
+          <circle cx="52" cy="14" r="3" /><circle cx="88" cy="48" r="2.6" /><circle cx="118" cy="96" r="3.4" /><circle cx="122" cy="154" r="2.5" /><circle cx="88" cy="212" r="3.2" /><circle cx="24" cy="264" r="2.6" /><circle cx="-58" cy="292" r="3" /><circle cx="-148" cy="285" r="2.4" /><circle cx="-228" cy="238" r="2.8" /><circle cx="-286" cy="164" r="2.2" />
+        </g>
+        <g transform="rotate(180)" fill="#d8b4fe" filter="url(#starGlow)">
+          <circle cx="52" cy="14" r="3" /><circle cx="88" cy="48" r="2.6" /><circle cx="118" cy="96" r="3.4" /><circle cx="122" cy="154" r="2.5" /><circle cx="88" cy="212" r="3.2" /><circle cx="24" cy="264" r="2.6" /><circle cx="-58" cy="292" r="3" /><circle cx="-148" cy="285" r="2.4" /><circle cx="-228" cy="238" r="2.8" /><circle cx="-286" cy="164" r="2.2" />
+        </g>
+      </g>
+
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite" />
+        <g fill="#ffffff" opacity="0.88">
+          <circle cx="38" cy="-22" r="2.2" /><circle cx="68" cy="-54" r="2" /><circle cx="96" cy="-92" r="2.4" /><circle cx="-38" cy="22" r="2.2" /><circle cx="-68" cy="54" r="2" /><circle cx="-96" cy="92" r="2.4" /><circle cx="28" cy="44" r="2" /><circle cx="-28" cy="-44" r="2" /><circle cx="72" cy="84" r="2.1" /><circle cx="-72" cy="-84" r="2.1" />
+        </g>
+      </g>
+
+      <circle cx="0" cy="0" r="76" fill="url(#coreGlow)">
+        <animate attributeName="r" values="68;86;68" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="0" cy="0" r="16" fill="#ffffff" filter="url(#starGlow)" />
+    </g>
+
+    <!-- ========================================== -->
+    <!-- 🛠️ TEMPLATE EDIT ZONE: ORBITING PROJECTS   -->
+    <!-- Change the text inside the <text> tags!    -->
+    <!-- ========================================== -->
+    <g transform="translate(450, 224)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">
+      
+      <!-- ✏️ EDIT: Core Hub (Center) -->
+      <g>
+        <circle r="18" fill="none" stroke="#e9d5ff" stroke-width="1.2">
+          <animate attributeName="r" values="12;24;12" dur="2.8s" repeatCount="indefinite" />
+          <animate attributeName="stroke-opacity" values="0.85;0.05;0.85" dur="2.8s" repeatCount="indefinite" />
+        </circle>
+        <circle r="4.5" fill="#ffffff" filter="url(#starGlow)" />
+        <rect x="-54" y="-29" width="108" height="17" rx="4" fill="#090d16" fill-opacity="0.88" stroke="#a855f7" stroke-width="0.9" />
+        <text x="0" y="-17" text-anchor="middle" fill="#f3e8ff">ProNoob-Dev</text>
+      </g>
+
+      <!-- ✏️ EDIT: Inner Orbit Star 1 -->
+      <g>
+        <animateMotion path="M 140,0 A 140,67 0 1,1 -140,0 A 140,67 0 1,1 140,0" dur="20s" repeatCount="indefinite" />
+        <circle r="11" fill="#38bdf8" fill-opacity="0.25" />
+        <circle r="4" fill="#38bdf8" filter="url(#starGlow)" />
+        <rect x="-24" y="-23" width="48" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-12" text-anchor="middle" fill="#bae6fd">Axiom</text>
+      </g>
+
+      <!-- ✏️ EDIT: Inner Orbit Star 2 -->
+      <g>
+        <animateMotion path="M -140,0 A 140,67 0 1,1 140,0 A 140,67 0 1,1 -140,0" dur="20s" repeatCount="indefinite" />
+        <circle r="11" fill="#c084fc" fill-opacity="0.25" />
+        <circle r="4" fill="#c084fc" filter="url(#starGlow)" />
+        <rect x="-47" y="-23" width="94" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-12" text-anchor="middle" fill="#e9d5ff">Invest-Intel</text>
+      </g>
+
+      <!-- ✏️ EDIT: Mid Orbit Star 3 -->
+      <g>
+        <animateMotion path="M 0,-108 A 225,108 0 1,1 0,108 A 225,108 0 1,1 0,-108" dur="28s" repeatCount="indefinite" />
+        <circle r="10" fill="#34d399" fill-opacity="0.25" />
+        <circle r="3.8" fill="#34d399" filter="url(#starGlow)" />
+        <rect x="-40" y="-22" width="80" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#a7f3d0">HR-Copilot</text>
+      </g>
+
+      <!-- ✏️ EDIT: Mid Orbit Star 4 -->
+      <g>
+        <animateMotion path="M 0,108 A 225,108 0 1,1 0,-108 A 225,108 0 1,1 0,108" dur="28s" repeatCount="indefinite" />
+        <circle r="10" fill="#e879f9" fill-opacity="0.25" />
+        <circle r="3.8" fill="#e879f9" filter="url(#starGlow)" />
+        <rect x="-44" y="-22" width="88" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#f5d0fe">Multi-Agent</text>
+      </g>
+
+      <!-- ✏️ EDIT: Outer Orbit Star 5 -->
+      <g>
+        <animateMotion path="M 223,-107 A 315,151 0 1,1 -223,107 A 315,151 0 1,1 223,-107" dur="38s" repeatCount="indefinite" />
+        <circle r="9" fill="#60a5fa" fill-opacity="0.22" />
+        <circle r="3.5" fill="#60a5fa" filter="url(#starGlow)" />
+        <rect x="-27" y="-21" width="54" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#bfdbfe">WA-BOT</text>
+      </g>
+
+      <!-- ✏️ EDIT: Outer Orbit Star 6 -->
+      <g>
+        <animateMotion path="M -223,107 A 315,151 0 1,1 223,-107 A 315,151 0 1,1 -223,107" dur="38s" repeatCount="indefinite" />
+        <circle r="9" fill="#a78bfa" fill-opacity="0.22" />
+        <circle r="3.5" fill="#a78bfa" filter="url(#starGlow)" />
+        <rect x="-50" y="-21" width="100" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#ddd6fe">Claims-Triage</text>
+      </g>
+
+      <!-- ✏️ EDIT: Outer Orbit Star 7 -->
+      <g>
+        <animateMotion path="M -223,-107 A 315,151 0 1,1 223,107 A 315,151 0 1,1 -223,-107" dur="38s" repeatCount="indefinite" />
+        <circle r="8.5" fill="#7dd3fc" fill-opacity="0.22" />
+        <circle r="3.3" fill="#7dd3fc" filter="url(#starGlow)" />
+        <rect x="-37" y="-21" width="74" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#e0f2fe">KYC-Agent</text>
+      </g>
+
+      <!-- ✏️ EDIT: Outer Orbit Star 8 -->
+      <g>
+        <animateMotion path="M 223,107 A 315,151 0 1,1 -223,-107 A 315,151 0 1,1 223,107" dur="38s" repeatCount="indefinite" />
+        <circle r="8.5" fill="#fde68a" fill-opacity="0.22" />
+        <circle r="3.3" fill="#fde68a" filter="url(#starGlow)" />
+        <rect x="-34" y="-21" width="68" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#fef3c7">SaveReel</text>
+      </g>
+    </g>
+
+    <!-- ========================================== -->
+    <!-- 🛠️ TEMPLATE EDIT ZONE: HUD TEXT           -->
+    <!-- ========================================== -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" letter-spacing="1.2">
+      <circle cx="24" cy="26" r="4" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite" />
+      </circle>
+      
+      <!-- ✏️ EDIT: Top Left HUD -->
+      <text x="36" y="30" fill="#e2e8f0" font-weight="700">GALACTIC TELEMETRY // PRONOOB-DEV</text>
+      
+      <!-- ✏️ EDIT: Top Right HUD -->
+      <text x="876" y="30" text-anchor="end" fill="#a78bfa" font-weight="700">REPOSITORIES: 18 • ORBIT: LIVE</text>
+
+      <!-- ✏️ EDIT: Bottom Left HUD -->
+      <text x="22" y="418" fill="#64748b">FOCUS: GENERATIVE AI • AGENTIC AI • LANGGRAPH • RAG • MCP</text>
+      
+      <!-- ✏️ EDIT: Bottom Right HUD -->
+      <text x="876" y="418" text-anchor="end" fill="#38bdf8">TAP TO EXPLORE REPOSITORIES ↗</text>
+    </g>
+
+    <rect x="2" y="2" width="896" height="436" rx="18" ry="18" fill="none" stroke="#312e81" stroke-width="1.5" />
+  </g>
+</svg>

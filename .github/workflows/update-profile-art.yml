@@ -1,6 +1,7 @@
 name: Update profile art
 
-# Refreshes the contribution graph + stats card SVGs daily from real data.
+# Refreshes the contribution graph + stats card SVGs daily from real data,
+# and re-renders the COSMIC TELEMETRY galaxy map from the live repo list.
 # Runs daily, plus whenever you push to main, plus on-demand.
 # Adapted from https://github.com/AVIVASHISHTA29/AVIVASHISHTA29
 
@@ -36,8 +37,13 @@ jobs:
       - name: Render streak / numbers card
         run: python scripts/render_stats_svg.py
 
+      - name: Update galaxy map from live repo list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/render_galaxy.py
+
       - name: Commit updated art
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution graph [skip ci]"
-          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg galaxy.svg"

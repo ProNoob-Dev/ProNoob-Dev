@@ -148,8 +148,8 @@
         <animateMotion path="M 140,0 A 140,67 0 1,1 -140,0 A 140,67 0 1,1 140,0" dur="20s" repeatCount="indefinite" />
         <circle r="11" fill="#38bdf8" fill-opacity="0.25" />
         <circle r="4" fill="#38bdf8" filter="url(#starGlow)" />
-        <rect x="-27" y="-23" width="54" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-12" text-anchor="middle" fill="#bae6fd">WA-BOT</text>
+        <rect x="-47" y="-23" width="94" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-12" text-anchor="middle" fill="#bae6fd">Invest-Intel</text>
       </g>
 
       <!-- ✏️ EDIT: Inner Orbit Star 2 -->
@@ -157,8 +157,8 @@
         <animateMotion path="M -140,0 A 140,67 0 1,1 140,0 A 140,67 0 1,1 -140,0" dur="20s" repeatCount="indefinite" />
         <circle r="11" fill="#c084fc" fill-opacity="0.25" />
         <circle r="4" fill="#c084fc" filter="url(#starGlow)" />
-        <rect x="-47" y="-23" width="94" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-12" text-anchor="middle" fill="#e9d5ff">Invest-Intel</text>
+        <rect x="-53" y="-23" width="106" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-12" text-anchor="middle" fill="#e9d5ff">Personal-Agent</text>
       </g>
 
       <!-- ✏️ EDIT: Mid Orbit Star 3 -->
@@ -166,8 +166,8 @@
         <animateMotion path="M 0,-108 A 225,108 0 1,1 0,108 A 225,108 0 1,1 0,-108" dur="28s" repeatCount="indefinite" />
         <circle r="10" fill="#34d399" fill-opacity="0.25" />
         <circle r="3.8" fill="#34d399" filter="url(#starGlow)" />
-        <rect x="-53" y="-22" width="106" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#a7f3d0">Personal-Agent</text>
+        <rect x="-40" y="-22" width="80" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#a7f3d0">HR-Copilot</text>
       </g>
 
       <!-- ✏️ EDIT: Mid Orbit Star 4 -->
@@ -175,8 +175,8 @@
         <animateMotion path="M 0,108 A 225,108 0 1,1 0,-108 A 225,108 0 1,1 0,108" dur="28s" repeatCount="indefinite" />
         <circle r="10" fill="#e879f9" fill-opacity="0.25" />
         <circle r="3.8" fill="#e879f9" filter="url(#starGlow)" />
-        <rect x="-40" y="-22" width="80" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#f5d0fe">HR-Copilot</text>
+        <rect x="-30" y="-22" width="60" height="15" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#f5d0fe">NoSleep</text>
       </g>
 
       <!-- ✏️ EDIT: Outer Orbit Star 5 -->
@@ -184,8 +184,8 @@
         <animateMotion path="M 223,-107 A 315,151 0 1,1 -223,107 A 315,151 0 1,1 223,-107" dur="38s" repeatCount="indefinite" />
         <circle r="9" fill="#60a5fa" fill-opacity="0.22" />
         <circle r="3.5" fill="#60a5fa" filter="url(#starGlow)" />
-        <rect x="-30" y="-21" width="60" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#bfdbfe">NoSleep</text>
+        <rect x="-44" y="-21" width="88" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#bfdbfe">Multi-Agent</text>
       </g>
 
       <!-- ✏️ EDIT: Outer Orbit Star 6 -->
@@ -193,8 +193,8 @@
         <animateMotion path="M -223,107 A 315,151 0 1,1 223,-107 A 315,151 0 1,1 -223,107" dur="38s" repeatCount="indefinite" />
         <circle r="9" fill="#a78bfa" fill-opacity="0.22" />
         <circle r="3.5" fill="#a78bfa" filter="url(#starGlow)" />
-        <rect x="-44" y="-21" width="88" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#ddd6fe">Multi-Agent</text>
+        <rect x="-34" y="-21" width="68" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#ddd6fe">SaveReel</text>
       </g>
 
       <!-- ✏️ EDIT: Outer Orbit Star 7 -->
@@ -202,8 +202,8 @@
         <animateMotion path="M -223,-107 A 315,151 0 1,1 223,107 A 315,151 0 1,1 -223,-107" dur="38s" repeatCount="indefinite" />
         <circle r="8.5" fill="#7dd3fc" fill-opacity="0.22" />
         <circle r="3.3" fill="#7dd3fc" filter="url(#starGlow)" />
-        <rect x="-34" y="-21" width="68" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#e0f2fe">SaveReel</text>
+        <rect x="-37" y="-21" width="74" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#e0f2fe">KYC-Agent</text>
       </g>
 
       <!-- ✏️ EDIT: Outer Orbit Star 8 -->
@@ -211,8 +211,8 @@
         <animateMotion path="M 223,107 A 315,151 0 1,1 -223,-107 A 315,151 0 1,1 223,107" dur="38s" repeatCount="indefinite" />
         <circle r="8.5" fill="#fde68a" fill-opacity="0.22" />
         <circle r="3.3" fill="#fde68a" filter="url(#starGlow)" />
-        <rect x="-37" y="-21" width="74" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
-        <text x="0" y="-11" text-anchor="middle" fill="#fef3c7">KYC-Agent</text>
+        <rect x="-50" y="-21" width="100" height="14" rx="3" fill="#090d16" fill-opacity="0.82" />
+        <text x="0" y="-11" text-anchor="middle" fill="#fef3c7">Claims-Triage</text>
       </g>
     </g>
 
@@ -228,7 +228,7 @@
       <text x="36" y="30" fill="#e2e8f0" font-weight="700">GALACTIC TELEMETRY // PRONOOB-DEV</text>
       
       <!-- ✏️ EDIT: Top Right HUD -->
-      <text x="876" y="30" text-anchor="end" fill="#a78bfa" font-weight="700">REPOSITORIES: 16 • ORBIT: LIVE</text>
+      <text x="876" y="30" text-anchor="end" fill="#a78bfa" font-weight="700">REPOSITORIES: 15 • ORBIT: LIVE</text>
 
       <!-- ✏️ EDIT: Bottom Left HUD -->
       <text x="22" y="418" fill="#64748b">FOCUS: GENERATIVE AI • AGENTIC AI • LANGGRAPH • RAG • MCP</text>
